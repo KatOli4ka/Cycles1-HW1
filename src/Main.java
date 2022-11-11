@@ -32,7 +32,7 @@ for (int i=0;i<=12;i++){total=total+deposit;
         for (int i=0;i<=12;i++){
             total1=total1+total1/100;
             total1=total1+deposit1;
-            System.out.println("Месяц "+ i +", сумма накоплений равна "+total1+" рублей");
+            System.out.println("Месяц "+i+", сумма накоплений равна "+total1+" рублей");
         }
 
 
