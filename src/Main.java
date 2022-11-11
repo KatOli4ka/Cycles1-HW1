@@ -27,13 +27,16 @@ int total=0;
 for (int i=0;i<=12;i++){total=total+deposit;
     System.out.println("Месяц "+i+", сумма накоплений равна "+total+" рублей");}
 
-int deposit1=29000;
-int total1=0;
-for (int i=0;i<=12;i++){
-    total1=total1+total1/100;
-    total1=total1+deposit1;
-    System.out.println("Месяц "+i+", сумма накоплений равна "+total1+" рублей");
-}
+        int deposit1=29000;
+        int total1=0;
+        for (int i=0;i<=12;i++){
+            total1=total1+total1/100;
+            total1=total1+deposit1;
+            System.out.println("Месяц "+i+", сумма накоплений равна "+total1+" рублей");
+        }
+
+
+
 
 
 
